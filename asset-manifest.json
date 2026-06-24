@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/genai-mastery/static/css/main.63e45230.css",
+    "main.js": "/genai-mastery/static/js/main.2a55a085.js",
+    "index.html": "/genai-mastery/index.html",
+    "main.63e45230.css.map": "/genai-mastery/static/css/main.63e45230.css.map",
+    "main.2a55a085.js.map": "/genai-mastery/static/js/main.2a55a085.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63e45230.css",
+    "static/js/main.2a55a085.js"
+  ]
+}
