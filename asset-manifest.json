@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/genai-mastery/static/css/main.63e45230.css",
-    "main.js": "/genai-mastery/static/js/main.8aeeba8b.js",
+    "main.js": "/genai-mastery/static/js/main.4ea18b25.js",
     "index.html": "/genai-mastery/index.html",
     "main.63e45230.css.map": "/genai-mastery/static/css/main.63e45230.css.map",
-    "main.8aeeba8b.js.map": "/genai-mastery/static/js/main.8aeeba8b.js.map"
+    "main.4ea18b25.js.map": "/genai-mastery/static/js/main.4ea18b25.js.map"
   },
   "entrypoints": [
     "static/css/main.63e45230.css",
-    "static/js/main.8aeeba8b.js"
+    "static/js/main.4ea18b25.js"
   ]
 }
