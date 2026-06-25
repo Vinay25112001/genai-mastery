@@ -3,41 +3,55 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="theme-color" content="#2563EB" />
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- Primary meta -->
+    <title>GenAI Mastery — Learn Generative AI from Zero to Advanced</title>
+    <meta name="description" content="Master Generative AI through 10 modules and 28 research-backed topics — LLMs, diffusion models, RAG, fine-tuning, and AI agents. Quiz-gated progression with cloud sync." />
+    <meta name="keywords" content="generative AI, machine learning, LLM, transformer, diffusion models, RAG, prompt engineering, deep learning course" />
+    <meta name="author" content="Vinay Kumar Reddy Sirigireddy" />
+
+    <!-- Open Graph — controls how the link looks when shared on LinkedIn, WhatsApp, Twitter -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://vinay25112001.github.io/genai-mastery/" />
+    <meta property="og:title" content="GenAI Mastery — Learn Generative AI from Zero to Advanced" />
+    <meta property="og:description" content="10 modules · 28 topics · Quiz-gated progression · Cloud sync. Research-backed content citing Vaswani, Ho, Wei, Mikolov and 50+ landmark papers." />
+    <meta property="og:image" content="https://vinay25112001.github.io/genai-mastery/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="GenAI Mastery — Learn Generative AI from Zero to Advanced" />
+    <meta name="twitter:description" content="10 modules · 28 topics · Quiz-gated progression · Cloud sync." />
+    <meta name="twitter:image" content="https://vinay25112001.github.io/genai-mastery/og-image.png" />
+
+    <!-- Apple -->
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- GitHub Pages SPA redirect handler -->
+    <!-- When a user loads a deep URL on GitHub Pages, the server returns 404.
+         The 404.html page redirects here with the path encoded as a query param.
+         This script restores the original URL for React Router. -->
+    <script>
+      (function() {
+        var redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <div style="font-family:sans-serif;text-align:center;padding:60px 24px;">
+        <h1>🧠 GenAI Mastery</h1>
+        <p>Please enable JavaScript to run this application.</p>
+      </div>
+    </noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

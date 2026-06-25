@@ -28,6 +28,8 @@ const AuthPage: React.FC = () => {
         to_email: toEmail,
         course_name: 'GenAI Mastery',
         login_url: `${window.location.origin}/genai-mastery/`,
+        confirmation_url: `${window.location.origin}/genai-mastery/`,
+        year: new Date().getFullYear().toString(),
       }, publicKey);
     } catch (err) {
       // Welcome email failure is non-blocking
